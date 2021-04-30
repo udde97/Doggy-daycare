@@ -32,7 +32,7 @@ class Register extends Component {
             <img src={user.img} className="card-img-top" alt={`${user.name} img`} />
             <div className="card-body">
               <h5 className="card-DogName">{user.name} </h5>
-             <Link href="#" className="btn btn-primary" to={"/Dogs/"+user.chipNumber}>More about this friend</Link> 
+             <Link href="#" className="btn btn-primary" to={"/Dogs/"+user.chipNumber}>More about this dog</Link> 
             </div>
             </div>
 
