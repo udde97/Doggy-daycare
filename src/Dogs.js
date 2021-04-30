@@ -58,7 +58,7 @@ class Dogs extends Component {
               <img src={user.img} className="card-img-top" alt={`${user.name} img`} />
               <div className="card-body">
                 <h5 className="card-Name">{user.name}</h5>
-                <h5 className="card-DogsAge"> Age: {user.age} Years</h5>
+                <p className="card-DogsAge"> Age: {user.age} Years</p>
                 <p className="card-OwnersNamee">Owner: {user.owner.name} {user.owner.lastName}</p>
                 <p> Race: {user.breed}</p>
                 <p> Sex: {user.sex}</p>
