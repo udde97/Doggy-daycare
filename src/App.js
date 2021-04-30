@@ -1,25 +1,50 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Home from './Home';
+import Register from './Register';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import {HashRouter as Router, Route, Switch,Link} from 'react-router-dom';
+import Dogs from './Dogs'
+
+class App extends Component {
+  
+      
+    
+  
+  
+
+
+
+
+  render() 
+  {
+    return(
+
+    <Router>
+      <switch>
+      <Route exact path="/">
+        <Home/>
+      
+      </Route>
+
+      <Route path= "/register">
+
+        <Register/>
+
+      </Route>
+
+      <Route path= "/Dogs/:chipNumber"> 
+      
+      <Dogs/>
+
+      </Route>
+
+
+      </switch>
+     </Router>
+    )
+    }
+
+  }
 
 export default App;

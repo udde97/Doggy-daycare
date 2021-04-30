@@ -1,0 +1,59 @@
+
+.Home{
+    background-image: url('https://media1.s-nbcnews.com/i/newscms/2020_28/1587661/dogs-age-years-kb-inline-200707_7d0bca498155db9ae60dd81dec0ba6ab.jpg'); 
+    display: flex;
+    position: fixed;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    text-align: center;
+
+    
+}
+.Home main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: url("https://cdn.hovia.com/app/uploads/Blue-Bulldog-and-Sausage-Dog-Pattern-Pet-Wallpaper-Mural-Room-820x532.jpg");
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2em;
+    border-radius: 2em;
+  
+  }
+
+.Home .Title {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 5em;
+    color: azure;
+}
+.Home .SubTitle {
+    color: azure;
+    font-weight: bold;
+    Margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    
+
+}
+.Home .Button{
+    background: darkblue;
+    color: cornsilk;
+    font-size: medium;
+    cursor: pointer;
+    border: 0.5vmin solid darkblue;
+    background-position: center;
+    border-radius: 10%;
+    padding: 1ex;
+    
+
+}
+
